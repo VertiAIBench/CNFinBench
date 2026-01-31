@@ -100,6 +100,8 @@ CNFinBench adopts a multi-stage **data generation pipeline** that combines:
 - **Interaction & safety task design** – simulating trust boundaries and real agent execution chains
 - **Task-aware rubric annotation** – enabling interpretable model evaluation across 3 axes
 
+---
+
 ## 🏆 Leaderboard & Evaluation Platform
 
 
