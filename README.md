@@ -4,5 +4,9 @@ CNFinBench — the first comprehensive benchmark for high-stakes financial scena
 
 
 
-https://github.com/user-attachments/assets/55b8f1e7-ab3d-409a-90b0-ad54d5f2b77f
+
+
+
+
+https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
 
