@@ -10,6 +10,7 @@
 📹 **For clearer demo video, please click the link:** [Video](https://www.bilibili.com/video/BV1tCFKz7E5V)  
 
 https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
+
 ## 📣 News & Announcements
 
 📰 **Media Coverage**  
