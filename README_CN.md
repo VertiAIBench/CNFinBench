@@ -4,8 +4,9 @@
 [![Leaderboard](https://img.shields.io/badge/Leaderboard-OpenCompass-blue)](https://cnfinbench.opencompass.org.cn/home)
 
 ---
-[Demo Video](https://www.bilibili.com/video/BV1tCFKz7E5V/?spm_id_from=333.1368.list.card_archive.click&vd_source=59e46b06947602ba456024ab5036a801)  
-📹 **请点击上方链接观看更清晰的视频**
+
+📹 **请点击链接观看更清晰的视频：** [Video](https://www.bilibili.com/video/BV1tCFKz7E5V/?spm_id_from=333.1368.list.card_archive.click&vd_source=59e46b06947602ba456024ab5036a801)  
+
 https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
 
 **语言**: [English](README.md) | [中文](README_CN.md)
