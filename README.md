@@ -15,6 +15,12 @@ https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
 📰 **Media Coverage**  
 - 👉 [CNFinBench Released: A New Benchmark for Financial LLM Safety Evaluation](https://mp.weixin.qq.com/s/z427UB6r6QPNyAX_Pfc0JA)
 - 👉 [From Capabilities to Agents: How CNFinBench Evaluates Compliance and Safety of Financial LLMs](https://mp.weixin.qq.com/s/5UUBlklvoB67nQYOIXee7Q)
+- 👉 [Shanghai Government: Financial LLM Evaluation System 2.0 Released in Shanghai](https://www.shanghai.gov.cn/nw4411/20251229/3a87d71a2a104c9993164165a2e21c0a.html)
+- 👉 [21st Century Business Herald: Industry Standards Upgraded! 2025 Financial LLM Evaluation System Officially Released in Shanghai](https://m.21jingji.com/article/20251229/herald/c4281b3b73c2b77940b8ab1010514875.html)
+- 👉 [China News Service: 2025 Financial LLM Evaluation System Successfully Launched in Shanghai](https://www.sh.chinanews.com.cn/kjjy/2025-12-27/143671.shtml)
+- 👉 [International Finance News: 2025 Financial LLM Evaluation System](https://www.ifnews.com/h5/news.html?aid=792908)
+- 👉 [Xinhua Finance: 2025 Financial LLM Evaluation System](https://bm.cnfic.com.cn/sharing/share/articleDetail/429697918115848192/1)
+- 👉 [China Securities Journal: 2025 Financial LLM Evaluation System](https://csapp1.cs.com.cn/hg/2025/12/28/detail_202512289338043.html)
 
 
 📄 **Academic Release**  
