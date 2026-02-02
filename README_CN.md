@@ -5,7 +5,7 @@
 
 ---
 
-📹 **请点击链接观看更清晰的视频：** [Video](https://www.bilibili.com/video/BV1tCFKz7E5V/?share_source=copy_web&vd_source=198b03f0c60cb5de4f48c66ddc65b5b7)  
+📹 **请点击链接观看更清晰的视频：** [Video](https://www.bilibili.com/video/BV1tCFKz7E5V)  
 
 https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
 
