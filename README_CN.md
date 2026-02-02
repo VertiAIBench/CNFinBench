@@ -5,9 +5,7 @@
 
 ---
 
-📹 **请点击链接观看更清晰的视频：** [Video](https://www.bilibili.com/video/BV1tCFKz7E5V/?vd_source=59e46b06947602ba456024ab5036a801)  
-
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115999701468886&bvid=BV1tCFKz7E5V&cid=35768107779&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+📹 **请点击链接观看更清晰的视频：** [Video](https://www.bilibili.com/video/BV1tCFKz7E5V/?share_source=copy_web&vd_source=198b03f0c60cb5de4f48c66ddc65b5b7)  
 
 https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
 
