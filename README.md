@@ -6,9 +6,8 @@
 [![Leaderboard](https://img.shields.io/badge/Leaderboard-OpenCompass-blue)](https://cnfinbench.opencompass.org.cn/home)
 
 ---
-[![Demo Video](https://i2.hdslb.com/bfs/archive/a7f329b4bfddef37734e447f8c565c388b0d2a69.jpg@672w_378h_1c_!web-home-common-cover.avif)](https://www.bilibili.com/video/BV15arwBeEWB)
-
-
+[Demo Video](https://www.bilibili.com/video/BV1tCFKz7E5V/?spm_id_from=333.1368.list.card_archive.click&vd_source=59e46b06947602ba456024ab5036a801)  
+📹 **For clearer demo video, please click the link above**
 
 https://github.com/user-attachments/assets/c15e95fb-8081-474b-936a-3686ac312c62
 ## 📣 News & Announcements
