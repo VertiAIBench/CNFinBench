@@ -10,7 +10,7 @@ from openai import OpenAI
 from MT_Inter_prompt import type_prompt, attack_prompt
 
 # === concurrent configuration ===
-MAX_WORKERS = 16
+MAX_WORKERS = 1
 
 
 # ========== attack model ==========
@@ -124,6 +124,7 @@ class AttackModel:
             model=self.model_name,
             messages=messages,
             temperature=0.7,
+            max_tokens=512,
         )
 
         content = completion.choices[0].message.content.strip()
@@ -215,7 +216,8 @@ class DefenseModel:
         completion = self.client.chat.completions.create(
             model=self.model_name,
             messages=messages,
-            temperature=0.3,
+            temperature=0.7,
+            max_tokens=512,
         )
 
         answer = completion.choices[0].message.content.strip()
@@ -377,16 +379,28 @@ def main(
             try:
                 row_records = future.result()
                 all_records.extend(row_records)
-                print(f"[Row {idx}] 4 rounds of conversation completed.")
+                # ===== immediately save after each row is completed =====
+                with OUTPUT_JSONL.open("a", encoding="utf-8") as f:
+                    for obj in row_records:
+                        f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+                print(f"[Row {idx}] 4 rounds of conversation completed and saved.")
             except Exception as e:
                 print(f"[Row {idx}] error: {e!r}")
 
-    # ===== after all completed: sort + write jsonl once =====
+    # ===== after all completed: re-read, sort and rewrite for consistency =====
 
     def extract_round_int(round_str):
         s = str(round_str)
         m = re.search(r"\d+", s)
         return int(m.group()) if m else 9999
+
+    # Re-read all records from file to ensure consistency
+    if OUTPUT_JSONL.exists():
+        all_records = []
+        with OUTPUT_JSONL.open("r", encoding="utf-8") as f:
+            for line in f:
+                if line.strip():
+                    all_records.append(json.loads(line))
 
     all_records.sort(
         key=lambda x: (
@@ -395,6 +409,7 @@ def main(
         )
     )
 
+    # Rewrite sorted records
     with OUTPUT_JSONL.open("w", encoding="utf-8") as f:
         for obj in all_records:
             f.write(json.dumps(obj, ensure_ascii=False) + "\n")

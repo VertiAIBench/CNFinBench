@@ -1,9 +1,9 @@
 import argparse
 from pathlib import Path
 
-from MT_Inter_safe import main as MT_Inter_main
-from MT_Cog_safe import main as MT_Cog_main
-from MT_App_safe import main as MT_App_main
+from MT_Inter import main as MT_Inter_main
+from MT_Cog import main as MT_Cog_main
+from MT_App import main as MT_App_main
 
 
 def main():
